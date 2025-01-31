@@ -1,0 +1,284 @@
+/* media for smart phones */
+@media(max-width:1024px){
+    .container{
+        width: 90%;
+    }
+    /* header style */
+    .nav-right-content {
+        display: none;
+    }
+    .nav-content{
+        justify-content: center;
+    }
+    /* banner */
+    .news-home-top-row{
+        flex-direction: column;
+    }
+    .top-news-trending-topics{
+        width: 100%;
+    }
+    .top-news-culture-trends{
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+    }
+    .culture-trends-content{
+        margin-top: 2em;
+        width: 47%;
+        height: 50%;
+    }
+
+    /* whats new style */
+    .whats-new-content-right{
+        width: 100%;
+    }
+    .whats-news-row{
+        flex-direction: column;
+    }
+    .whats-new-category-list{
+     flex-wrap: wrap;
+    }
+    .whats-new{
+        width: 100%;
+    }
+    .whats-new-content{
+        flex-direction: column;
+    }
+    .whats-new-content-left{
+        width: 100%;
+    }
+    /* most recent style  */
+    .whats-new-recent{
+        width: 100%;
+    }
+    /* most popular  */
+    .add-banner{ display: none;}
+    .most-popular-top{
+        width: 100%;
+    }
+    /* footer */
+    .footer-content{
+        flex-wrap: wrap;
+    }
+    .footer-about,.popular-post,.footer-add{
+        width: 41%;
+    }
+}
+@media (max-width:768px){
+
+    .news-header-top {
+        background-color: var(--primary-color);
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+    }
+    
+    nav {
+        background-color: #fff;
+    }
+    
+    
+    .nav-left-content {
+        box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+        width: 90%;
+        flex-direction: column;
+    }
+    
+    .nav-left-content a {
+        color: black;
+    }
+    
+    .nav-btn {
+        padding: 0px 0px;
+    }
+    
+    .nav-left-content ul li {
+        text-align: left;
+        padding: 10px;
+    }
+    
+    .nav-left-content ul {
+        z-index: 8;
+        position: absolute;
+        top: -500px;
+        left: 20px;
+        transition: all 0.5s linear;
+        background-color: var(--font-color-primary);
+    }
+    
+    #news-user-login {
+        opacity: 0;
+    }
+    
+    .bar-icon {
+        color: var(--font-color-primary);
+        font-size: 1.5rem;
+        opacity: 1;
+        z-index: 11;
+    }
+    
+    .chk:checked~ul {
+        top: 59px;
+        left: 20px;
+        opacity: 1;
+    
+    }
+    /*  banner */
+    .news-content-text{
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width:600px) {
+
+    .container {
+        width: 90%;
+    }
+    
+    /* header style */
+
+    /* banner style */
+    .news-home-content{
+        padding: 1em;
+    }
+    .news-home-top-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-news-trending-topics {
+        padding-top: 1em;
+        width: 100%;
+    }
+
+    .top-news-culture-trends {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .top-news-culture-trends .news-content {
+        width: 50%;
+        height: 50%;
+        margin-top: 2em;
+    }
+    
+    .culture-trends-content{
+        margin: 0.8em;
+    }
+    .news-headline-fashion{
+        font-size: 1rem;
+    }
+    .news-content-text{
+        font-size: 0.8rem;
+    }
+    /* whats new style  */
+    .whats-news-row{
+        flex-direction: column;
+    }
+    .whats-new{
+        width: 100%;
+    }
+    .whats-new-top{
+      flex-direction: column;
+      text-align: start;
+    }
+    .whats-new-title{
+        width: 100%;
+    }
+    .whats-new-content-left{
+        width: 100%;
+    }
+    .whats-new-content{
+        flex-direction: column;
+    }
+    .whats-new-caption{
+        margin: 1em 0em;
+    }
+    .whats-new-recent{
+        margin-top: 2em;
+        width: 100%;
+    }
+    .news-social-box{
+       width: 100%;
+    }
+    .whats-right-news{
+       width: 100%;
+    }
+    .whats-new-content-right{
+        width: 100%;
+    }
+    /* most popular style */
+    .add-banner{
+        display: none;
+    }
+    .most-popular-news-row {
+        flex-direction: column;
+    }
+    .most-popular-news{
+        width: 100%;
+    }
+    /* trending news style */
+    .trending-news-row{
+        flex-direction: column;
+        gap: 1em;
+        align-content: center;
+    }
+    .trending-news-content{
+        width: 95%;
+    }
+    /* footer style  */
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-about,.popular-post{
+        width: 60%;
+    }
+    .footer-add{
+        width: 50%;
+    }
+}
+/* media 480px  */
+@media (max-width:480px)
+{
+    /* header style  */
+    /* news home style */
+    .news-home-content {
+        padding: 0px;
+    }
+   .news-headline{
+    font-size: 0.8em;
+  }
+  .news-headline-fashion{
+    font-size: 1em;
+  }
+   .top-news-culture-trends{
+    flex-direction: column;
+   }
+   .top-news-culture-trends .news-content {
+    width: 100%;
+   }
+   .culture-trends-content{
+    margin: 0px;
+   }
+   /* whats new */
+   .whats-new{
+    font-size: 1rem;
+   }
+   .whats-right-news{
+    flex-direction: column;
+   }
+   .most-popular-top{
+    width: 100%;
+   }
+   .most-recent{
+     font-size: 0.8rem;
+   }
+   .third-week-news-row {
+    justify-content: space-evenly;
+    margin: 5em 0em;
+    flex-direction: column;
+    gap: 1em;}
+    .third-week-news {
+        width: 100%;
+    }
+}
