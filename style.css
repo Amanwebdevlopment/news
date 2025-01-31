@@ -360,6 +360,7 @@ nav {
 }
 
 .news-social-box {
+    margin-top: 1.8em;
     border-radius: 5%;
     padding: 1rem;
     background-color: var(--font-color-primary);
